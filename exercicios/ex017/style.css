@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: Work Sans;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to left, #A4031F 0.1%, #070707 60%
+    );
+    /*
+    Medidas Absolutas  
+    cm, mm, in(polegada), px, pt, pc
+    
+    Medidas Relativas:  em (Relativo ao tamanho atual da fonte e Altura M), ex (Relativo à Altura x de uma fonte), rem (Relativo ao tamanho atual da fonte no ROOT [body ou *]), vw (View Width - Largura da Viewport/Tamanho da Tela), vh (View Height - Altura da Viewport/Tamanho da Tela) e %
+    */
+    font-size: 15px;
+    font-weight: normal;
+    /* weight(peso), width(largura), height(altura) */
+}
+main {
+    background-color: #FEF5EF;
+    border-radius: 15px;
+    padding: 20px;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 15px #2c2a29;
+}
+
+h1{
+    text-align: center;
+    /* ORDEM A SER SEGUIDA: shorthand font - font-style -> font-weight -> font-size -> font-family*/
+    font: italic bolder 2.5em 'Work Sans';
+}
+
+h2{
+    font: bold 2em 'Work Sans'
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-pag {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(30, 25, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfield > input{
+    color: black;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textfield > h1 {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.btn-login {
+    color: black;
+}
+
+.card-login {
+    background: white;
+    width: 50%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px 35px
+}
+

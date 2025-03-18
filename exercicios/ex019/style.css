@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Daydream';
+    src: url(Daydream.ttf) format('truetype');
+}
+/* 
+    em HTML é id    = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+body {
+    background-color: #39414D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #8596B3;
+}   
+
+h1#principal {
+    background-color: #23282F;
+    width: 60%;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Daydream';
+    font-size: 2.5em;
+    margin: auto;
+    box-shadow: 5px 5px 20px #23282F;
+}
+
+h2 {
+    color: #525D6F;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.basico {
+    color: #556f52;
+}
+
+.intermediario {
+    color: #6f6c52;
+}
+
+
+.avancado {
+    color: #6f5252;
+}

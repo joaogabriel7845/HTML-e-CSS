@@ -1,0 +1,11 @@
+justify-contente refere-se ao eixo X
+
+align-items refere-se ao eixo Y
+
+Quando usamos o flex-direction isso se inverte.
+
+Ou seja, fica desse jeito:
+
+justify-contente passa a ser o eixo Y
+
+align-items passa a ser o eixo X
