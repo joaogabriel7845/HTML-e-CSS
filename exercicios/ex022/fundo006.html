@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulando Imagem de Fundo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - backround
+                color > image > position > repeat > [size] > attachment
+            */ 
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -27,6 +35,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate culpa aliquam fugiat fuga sapiente possimus debitis! Iste labore eos animi ea et. Dolorum saepe, aperiam reprehenderit esse ex quisquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus corrupti aliquam provident rem aperiam maiores! Consequatur, esse. Fuga nobis molestias asperiores ipsum voluptates aspernatur optio, vel mollitia, velit, recusandae alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt ipsum eos unde cum eaque debitis animi adipisci consequuntur, nostrum doloribus, blanditiis tempore dignissimos numquam. Eveniet molestiae explicabo nulla nesciunt!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate culpa aliquam fugiat fuga sapiente possimus debitis! Iste labore eos animi ea et. Dolorum saepe, aperiam reprehenderit esse ex quisquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus corrupti aliquam provident rem aperiam maiores! Consequatur, esse. Fuga nobis molestias asperiores ipsum voluptates aspernatur optio, vel mollitia, velit, recusandae alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt ipsum eos unde cum eaque debitis animi adipisci consequuntur, nostrum doloribus, blanditiis tempore dignissimos numquam. Eveniet molestiae explicabo nulla nesciunt!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate culpa aliquam fugiat fuga sapiente possimus debitis! Iste labore eos animi ea et. Dolorum saepe, aperiam reprehenderit esse ex quisquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus corrupti aliquam provident rem aperiam maiores! Consequatur, esse. Fuga nobis molestias asperiores ipsum voluptates aspernatur optio, vel mollitia, velit, recusandae alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt ipsum eos unde cum eaque debitis animi adipisci consequuntur, nostrum doloribus, blanditiis tempore dignissimos numquam. Eveniet molestiae explicabo nulla nesciunt!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate culpa aliquam fugiat fuga sapiente possimus debitis! Iste labore eos animi ea et. Dolorum saepe, aperiam reprehenderit esse ex quisquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus corrupti aliquam provident rem aperiam maiores! Consequatur, esse. Fuga nobis molestias asperiores ipsum voluptates aspernatur optio, vel mollitia, velit, recusandae alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt ipsum eos unde cum eaque debitis animi adipisci consequuntur, nostrum doloribus, blanditiis tempore dignissimos numquam. Eveniet molestiae explicabo nulla nesciunt!</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate culpa aliquam fugiat fuga sapiente possimus debitis! Iste labore eos animi ea et. Dolorum saepe, aperiam reprehenderit esse ex quisquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus corrupti aliquam provident rem aperiam maiores! Consequatur, esse. Fuga nobis molestias asperiores ipsum voluptates aspernatur optio, vel mollitia, velit, recusandae alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt ipsum eos unde cum eaque debitis animi adipisci consequuntur, nostrum doloribus, blanditiis tempore dignissimos numquam. Eveniet molestiae explicabo nulla nesciunt!</p>
     </main>
 </body>
