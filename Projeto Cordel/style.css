@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    font-family: Raleway;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    max-height: 300px;
+    color: white;
+}
+
+header h1, p {
+    position: relative;
+    top: 15%;
+}
+
+header h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+header p{
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: raleway;
+    padding: 3px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
