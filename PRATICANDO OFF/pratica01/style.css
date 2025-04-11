@@ -1,0 +1,89 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: DM Sans;
+}
+
+header {
+    background-color: #1A1D33;
+    height: 200px;
+    color: white;
+}
+
+header h1 {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+nav {
+    padding-left: 10px;
+}
+
+header a {
+    background-color: #0f101d;
+    height: 10px;
+    border-radius: 15px;
+    position: relative;
+    top: 110px;
+    padding: 15px;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    transition: 0.5s;
+    background-color: aliceblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    color: black;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: DM Sans;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.normal#img01 {
+    background-image: url(20s_top\ 5\ sheipado\ ataque.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.normal#img01 p {
+    background-color: rgba(0, 0, 0, 0.329);
+    display: inline-block;
+    
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.normal#img02 {
+    background-image: url(renan.jpg);
+    background-position: top top;
+    background-size: cover;
+}
+
+.normal#img02 p {
+    background-color: rgba(0, 0, 0, 0.329);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
